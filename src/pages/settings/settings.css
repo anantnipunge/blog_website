@@ -1,0 +1,83 @@
+.settings {
+  display: flex;
+}
+.settingsWrapper {
+  /* background: #000; */
+  flex: 9;
+  padding: 3px;
+}
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settingsUpdateTitle {
+  font-size: 40px;
+  border-bottom: 1px solid  lightgreen;
+  /* border-right: 1px solid  lightgreen; */
+  /* border-bottom: 1px solid  lightgreen; */
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  /* margin-bottom: 20px; */
+  border-radius: 2px;
+  /* color: white; */
+  /* background: #000; */
+}
+.settingsDeleteTitle {
+  color: red;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.settingsPP > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.settingsPPIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.settingsForm > input {
+  margin: 10px 0;
+  height: 30px;
+  color: rgb(5, 189, 33);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: none;
+  border-bottom: 1px solid lightgreen;
+}
+.settingsSubmitButton {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #000;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
